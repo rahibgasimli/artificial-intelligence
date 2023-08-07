@@ -1,0 +1,43 @@
+:root {
+  --main-color1:#0A121F;
+  --main-color2:#08101D;
+  --btn-color:#3A68B8;
+}
+
+
+.navbar {
+  display: flex;
+  padding-left: 90px;
+  padding-right: 90px;
+  justify-content: space-around;
+  background-color: #0A121F;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.navbar .logo{
+  display: flex;
+  align-items: center;
+  color: var(--btn-color);
+  font-size: 22.545px;
+  font-weight: 600;
+}
+
+.navbar .nav-links{
+  justify-content: center;
+  padding-right: 80px;
+}
+
+.navbar .nav-links a {
+  padding: 0 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar button{
+  background-color: var(--btn-color);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 25px;
+}
